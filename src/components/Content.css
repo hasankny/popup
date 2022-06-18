@@ -1,0 +1,112 @@
+/* Hasan KONYA 18.06.2022 */
+
+/*
+  LAYOUT CSS
+*/
+.ContentLayout {
+  width: 75%;
+  height: 100vh;
+  display: inline-block;
+  position: initial;
+  background-image: url(https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?w=1380&t=st=1655526336~exp=1655526936~hmac=e654714…);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: inline-grid;
+}
+/*
+  POPUP CSS
+*/
+.popup-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.popup-content {
+  position: relative;
+  width: 720px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  /* text-align: center; */
+  padding: 30px 30px 100px;
+  box-shadow: 0 9px 0px 0px white, 0px 0px 0px 0px white,
+    12px 0 15px -4px rgba(31, 73, 125, 0.3),
+    -12px 0 15px -4px rgba(31, 73, 125, 0.3);
+}
+
+.popup-form {
+  width: 70%;
+  display: block;
+}
+input.popup-input {
+  height: 48px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: Montserrat;
+  font-size: 15px;
+  color: #404b46;
+  line-height: 1.2;
+  padding: 0 20px;
+}
+select.popup-input {
+  height: 48px;
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: Montserrat;
+  font-size: 15px;
+  color: #404b46;
+  line-height: 1.2;
+  padding: 0 20px;
+}
+
+.popup-headline {
+  font-size: 40px;
+  font-weight: 500;
+  color: #333333;
+  padding-top: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.popup-description {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
+  line-height: 20px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+button.close {
+  width: 30px;
+  font-size: 20px;
+  color: #c0c5cb;
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+}
+button.popup-accept {
+  background: #639005;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  color: white;
+}
+
+.error-input {
+  text-align: left;
+  color: #ea0f0f;
+}

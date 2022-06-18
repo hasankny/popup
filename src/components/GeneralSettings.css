@@ -1,0 +1,66 @@
+/* Hasan KONYA 18.06.2022 */
+
+/*
+  LAYOUT CSS
+*/
+.SettingLayout {
+  width: 25%;
+  height: 100vh;
+  display: block;
+  float: left;
+}
+/*
+  GENERAL SETTINGS LAYOUT - FORM ELEMENTS CSS
+*/
+.form-title {
+  width: 100%;
+  display: block;
+  font-size: 26px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 28px;
+}
+input.settings-input {
+  display: block;
+  width: 85%;
+  background: transparent;
+  font-family: Montserrat;
+  font-size: 15px;
+  color: #404b46;
+  line-height: 1.2;
+  padding: 0 26px;
+}
+
+.settings-form {
+  width: 70%;
+  display: block;
+  padding: 55px 55px 55px 55px;
+}
+input.settings-input {
+  height: 48px;
+}
+textarea.settings-input {
+  min-height: 130px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+  font-family: Montserrat;
+  display: block;
+  width: 85%;
+  background: transparent;
+  font-size: 15px;
+  color: #404b46;
+  line-height: 1.2;
+  padding: 5px 26px;
+}
+input {
+  outline: none;
+  border: none;
+}
+textarea {
+  overflow: auto;
+  resize: vertical;
+  outline: none;
+  border: none;
+}

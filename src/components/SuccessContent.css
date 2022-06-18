@@ -1,0 +1,38 @@
+/* Hasan KONYA 18.06.2022 */
+/*
+  POPUP CSS
+*/
+.popup-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.popup-content {
+  position: relative;
+  width: 720px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  /* text-align: center; */
+  padding: 30px 30px 100px;
+  box-shadow: 0 9px 0px 0px white, 0px 0px 0px 0px white,
+    12px 0 15px -4px rgba(31, 73, 125, 0.3),
+    -12px 0 15px -4px rgba(31, 73, 125, 0.3);
+}
+.popup-form {
+  width: 70%;
+  display: block;
+}
+.success-message{
+  text-align: center;
+  width: 100%;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: bolder;
+  color: #404b46;
+  line-height: 30px;
+}
+
