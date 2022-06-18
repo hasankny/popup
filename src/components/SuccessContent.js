@@ -1,7 +1,6 @@
 // ** React Imports
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 // Redux Imports
-import { useSelector, useDispatch } from "react-redux";
 import { connect } from "react-redux";
 // ** Third Party Components
 import { Check } from 'react-feather';
@@ -9,8 +8,6 @@ import { Check } from 'react-feather';
 import "./SuccessContent.css";
 
 const SuccessContent = (props) => {
-  const dispatch = useDispatch();
-
   return (
     <Fragment>
       <div className="ContentLayout">

@@ -1,9 +1,7 @@
 // ** React Imports
 import { Fragment } from "react";
 // Redux Imports
-import { useSelector, useDispatch } from "react-redux";
-
-// Redux Imports
+import { useDispatch } from "react-redux";
 import { connect } from "react-redux";
 import {
   setHeadline,
