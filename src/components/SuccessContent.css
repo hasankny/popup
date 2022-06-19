@@ -7,32 +7,28 @@
   align-items: center;
   display: flex;
 }
-.popup-content {
-  position: relative;
-  width: 720px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #fff;
-  color: #000;
-  /* text-align: center; */
-  padding: 30px 30px 100px;
-  box-shadow: 0 9px 0px 0px white, 0px 0px 0px 0px white,
-    12px 0 15px -4px rgba(31, 73, 125, 0.3),
-    -12px 0 15px -4px rgba(31, 73, 125, 0.3);
-}
-.popup-form {
-  width: 70%;
-  display: block;
-}
 .success-message{
   text-align: center;
   width: 100%;
-  font-family: Montserrat;
-  font-size: 32px;
-  font-weight: bolder;
-  color: #404b46;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 77px;
+  color: #000000;
   line-height: 30px;
+}
+.popup-success-content{  
+  position: relative;
+  width: 720px;
+  height: 543px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  /* text-align: center; */
+  padding: 5px 5px 50px 5px;
 }
 

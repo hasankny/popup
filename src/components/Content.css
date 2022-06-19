@@ -5,15 +5,31 @@
 */
 .ContentLayout {
   width: 75%;
+  min-width: 75%;
   height: 100vh;
   display: inline-block;
   position: initial;
-  background-image: url(https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?w=1380&t=st=1655526336~exp=1655526936~hmac=e654714…);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: #585b68;
+  /* background-image: url(https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?w=1380&t=st=1655526336~exp=1655526936~hmac=e654714…); */
   overflow: hidden;
   display: inline-grid;
+}
+.content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.content-bg {
+  background: url("/public/image.png") no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  width: 850px;
+  height: 686px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  left: 32%;
+  top: 20%;
 }
 /*
   POPUP CSS
@@ -22,6 +38,10 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  background: url("/public/image.png") no-repeat center center;
+  background-size: contain;
+  /* width: 1080px; */
+  margin-left: 10%;
 }
 .popup-content {
   position: relative;
@@ -33,56 +53,61 @@
   background-color: #fff;
   color: #000;
   /* text-align: center; */
-  padding: 30px 30px 100px;
-  box-shadow: 0 9px 0px 0px white, 0px 0px 0px 0px white,
-    12px 0 15px -4px rgba(31, 73, 125, 0.3),
-    -12px 0 15px -4px rgba(31, 73, 125, 0.3);
+  padding: 5px 5px 50px 5px;
 }
-
+.popup-input-group {
+  border: 1px solid #ededed;
+  background: #ededed;
+}
 .popup-form {
   width: 70%;
   display: block;
+  margin-bottom: 30px;
 }
 input.popup-input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
   height: 48px;
   display: block;
   width: 100%;
   background: transparent;
-  font-family: Montserrat;
-  font-size: 15px;
-  color: #404b46;
-  line-height: 1.2;
+  color: #000000;
   padding: 0 20px;
 }
 select.popup-input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
   height: 48px;
   display: block;
   width: 100%;
   background: transparent;
-  font-family: Montserrat;
-  font-size: 15px;
-  color: #404b46;
-  line-height: 1.2;
+  color: #000000;
   padding: 0 20px;
 }
 
 .popup-headline {
-  font-size: 40px;
-  font-weight: 500;
-  color: #333333;
-  padding-top: 10px;
-  font-family: Montserrat;
+  font-size: 64px;
+  color: #000000;
+  font-family: "Inter";
   font-style: normal;
-  font-weight: bold;
-  line-height: 30px;
+  font-weight: 500;
+  line-height: 77.45px;
   text-align: center;
   overflow-wrap: break-word;
 }
 .popup-description {
   font-size: 20px;
   font-weight: 500;
-  color: #333333;
-  line-height: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #000000;
+  line-height: 24.2px;
   text-align: center;
   overflow-wrap: break-word;
 }
@@ -90,11 +115,13 @@ select.popup-input {
 button.close {
   width: 30px;
   font-size: 20px;
-  color: #c0c5cb;
+  color: #ffff;
   align-self: flex-end;
-  background-color: transparent;
   border: none;
   margin-bottom: 10px;
+  background-color: #639105;
+  border-radius: 50%;
+  display: inline-block;
 }
 button.popup-accept {
   background: #639005;

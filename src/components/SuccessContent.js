@@ -11,9 +11,9 @@ const SuccessContent = (props) => {
   return (
     <Fragment>
       <div className="ContentLayout">
+        <div className="content-bg"></div>
         <div className="popup-container">
-          <div className="popup-content" id="cookiesPopup">
-            <button className="close">✖</button>
+          <div className="popup-success-content">
             <Check color="green" size={64} />
             <span className="success-message">{props.successMessage ? props.successMessage : "Success"}</span>
           </div>

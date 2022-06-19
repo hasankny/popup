@@ -33,10 +33,10 @@ const GeneralSettings = (props) => {
         <span className="form-title">General Settings</span>
         <div className="settings-form">
           <div className="item">
+            <label className="label-input label-headline" htmlFor="settings-headline">
+              Headline
+            </label>
             <div className="input-group">
-              <label className="label-input" htmlFor="settings-headline">
-                Headline
-              </label>
               <input
                 id="settings-headline"
                 className="settings-input"
@@ -48,10 +48,10 @@ const GeneralSettings = (props) => {
             </div>
           </div>
           <div className="item">
+            <label className="label-input" htmlFor="settings-description">
+              Description
+            </label>
             <div className="input-group">
-              <label className="label-input" htmlFor="settings-description">
-                Description
-              </label>
               <textarea
                 id="settings-description"
                 className="settings-input"
@@ -63,10 +63,10 @@ const GeneralSettings = (props) => {
             </div>
           </div>
           <div className="item">
+            <label className="label-input" htmlFor="settings-success-message">
+              Success Message
+            </label>
             <div className="input-group">
-              <label className="label-input" htmlFor="settings-success-message">
-                Success Message
-              </label>
               <input
                 id="settings-success-message"
                 className="settings-input"

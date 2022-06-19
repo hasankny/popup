@@ -1,4 +1,5 @@
 /* Hasan KONYA 18.06.2022 */
+@import url("https://fonts.googleapis.com/css2?family=Inter");
 /*
 APP CSS
 */
@@ -20,18 +21,15 @@ textarea {
   outline: none;
   border: none;
 }
-.label-input {
-  font-size: 15px;
-  color: #666666;
-  line-height: 1.2;
-  padding: 15px 0 2px 24px;
-}
 .item {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .input-group {
-  width: 100%;
-  position: relative;
-  border: 1px solid #e6e6e6;
-  border-radius: 10px;
+  border: 1px solid #d2dae3;
+  border-radius: 8px;
+}
+* {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
