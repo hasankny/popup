@@ -11,7 +11,6 @@ const SuccessContent = (props) => {
   return (
     <Fragment>
       <div className="ContentLayout">
-        <div className="content-bg"></div>
         <div className="popup-container">
           <div className="popup-success-content">
             <Check color="green" size={64} />
